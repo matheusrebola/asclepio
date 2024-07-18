@@ -1,17 +1,21 @@
 package br.org.saude.asclepio.entities;
 
+import java.time.LocalDate;
 import java.util.UUID;
 
 import jakarta.persistence.Entity;
 
 @Entity
-public record Medicos(
+public record Faturamento(
 		UUID id,
 		String nome,
-		Especialidade especialidade,
+		LocalDate dataNascimento,
+		String endereco,
 		String telefone,
 		String email,
-		String crm) 
+		String historicoMedico,
+		String alergias,
+		Pacientes paciente) 
 {
-	
+
 }

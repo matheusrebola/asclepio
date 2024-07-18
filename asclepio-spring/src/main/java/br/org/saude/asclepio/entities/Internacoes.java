@@ -1,20 +1,18 @@
 package br.org.saude.asclepio.entities;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
 import jakarta.persistence.Entity;
 
 @Entity
-public record Consultas(
+public record Internacoes(
 		UUID id,
-		LocalDate dataConsulta,
-		LocalDateTime horaConsulta,
-		String status,
-		boolean ativo,
+		LocalDateTime dataInternacao,
+		LocalDateTime dataAlta,
+		String motivoInternacao,
 		Pacientes paciente,
-		Medicos medico) 
+		Leitos leito) 
 {
-	
+
 }
