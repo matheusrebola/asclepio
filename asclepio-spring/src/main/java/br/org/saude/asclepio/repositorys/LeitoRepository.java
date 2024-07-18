@@ -1,4 +1,10 @@
 package br.org.saude.asclepio.repositorys;
 
-public interface LeitoRepository {
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.org.saude.asclepio.entities.Leitos;
+
+public interface LeitoRepository extends JpaRepository<UUID, Leitos> {
 }

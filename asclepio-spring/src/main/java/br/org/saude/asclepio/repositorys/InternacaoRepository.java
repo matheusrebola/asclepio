@@ -4,7 +4,8 @@ import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.org.saude.asclepio.entities.Medicamentos;
+import br.org.saude.asclepio.entities.Internacoes;
 
-public interface MedicamentoRepository extends JpaRepository<UUID, Medicamentos>{
+public interface InternacaoRepository extends JpaRepository<UUID, Internacoes>{
+
 }

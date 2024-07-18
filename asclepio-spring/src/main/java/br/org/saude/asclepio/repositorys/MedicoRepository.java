@@ -1,4 +1,10 @@
 package br.org.saude.asclepio.repositorys;
 
-public interface MedicoRepository {
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.org.saude.asclepio.entities.Medicos;
+
+public interface MedicoRepository extends JpaRepository<UUID, Medicos> {
 }

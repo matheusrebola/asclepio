@@ -1,4 +1,10 @@
 package br.org.saude.asclepio.repositorys;
 
-public interface ConsultaRepository {
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.org.saude.asclepio.entities.Consultas;
+
+public interface ConsultaRepository extends JpaRepository<UUID, Consultas> {
 }
