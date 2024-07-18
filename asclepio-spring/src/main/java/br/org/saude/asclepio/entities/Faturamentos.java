@@ -6,7 +6,7 @@ import java.util.UUID;
 import jakarta.persistence.Entity;
 
 @Entity
-public record Faturamento(
+public record Faturamentos(
 		UUID id,
 		String nome,
 		LocalDate dataNascimento,
