@@ -1,13 +1,13 @@
-package br.org.saude.asclepio.repositorys;
+package asclepio.repositorys;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import br.org.saude.asclepio.entities.Monitoramentos;
+import asclepio.entities.Monitoramentos;
 
 @Repository
-public interface MonitoramentoRepository extends JpaRepository<UUID, Monitoramentos> {
+public interface MonitoramentoRepository extends JpaRepository<Monitoramentos, UUID> {
 
 }
