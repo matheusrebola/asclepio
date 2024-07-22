@@ -1,4 +1,4 @@
-package br.org.saude.asclepio.entities;
+package asclepio.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
