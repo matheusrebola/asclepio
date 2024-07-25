@@ -1,13 +1,13 @@
-package asclepio.repositorys;
+package asclepio.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import asclepio.entities.Internacoes;
+import asclepio.entities.Prescricoes;
 
 @Repository
-public interface InternacaoRepository extends JpaRepository<Internacoes, UUID>{
+public interface PrescricoesRepository extends JpaRepository<Prescricoes, UUID> {
 
 }

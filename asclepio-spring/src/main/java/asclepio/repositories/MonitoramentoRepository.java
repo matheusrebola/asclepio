@@ -1,4 +1,4 @@
-package asclepio.repositorys;
+package asclepio.repositories;
 
 import java.util.UUID;
 

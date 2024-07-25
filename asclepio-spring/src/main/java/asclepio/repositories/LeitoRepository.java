@@ -1,12 +1,12 @@
-package asclepio.repositorys;
+package asclepio.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import asclepio.entities.Consultas;
+import asclepio.entities.Leitos;
 
 @Repository
-public interface ConsultaRepository extends JpaRepository<Consultas, UUID> {
+public interface LeitoRepository extends JpaRepository<Leitos, UUID> {
 }
